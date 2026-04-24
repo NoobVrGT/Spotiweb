@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Spotiweb — Stats</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="icon" type="image/svg+xml" href="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg">
+</head>
+<body data-page="stats">
+
+<div id="spotiButton">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg">
+</div>
+
+<aside id="sidebar">
+  <div class="sidebar-header">
+    <h1>Spotiweb</h1>
+    <img class="spotify-icon-small" src="https://upload.wikimedia.org/wikipedia/commons/8/84/Spotify_icon.svg">
+  </div>
+
+  <nav class="sidebar-nav">
+    <a href="index.html" class="nav-link"><button class="nav-btn">Now Playing</button></a>
+    <a href="stats.html" class="nav-link"><button class="nav-btn">Stats</button></a>
+    <a href="recent.html" class="nav-link"><button class="nav-btn">Recent</button></a>
+    <a href="visualizer.html" class="nav-link"><button class="nav-btn">Visualizer</button></a>
+  </nav>
+</aside>
+
+<main>
+  <div class="panel card-panel">
+    <h2>Last.fm Stats</h2>
+
+    <div style="display:flex; gap:10px; align-items:center; margin-bottom:10px;">
+      <select id="timeRangeSelect" class="nav-btn" style="padding:10px 14px;">
+        <option value="7day">Last 7 days</option>
+        <option value="1month">Last month</option>
+        <option value="3month">Last 3 months</option>
+        <option value="6month">Last 6 months</option>
+        <option value="12month">Last 12 months</option>
+        <option value="overall" selected>All time</option>
+      </select>
+
+      <button id="loadStatsBtn">Load Stats</button>
+      <button id="generateCardBtn">Generate Stats Card</button>
+      <button id="downloadCardBtn">Download PNG</button>
+    </div>
+
+    <div class="stats-columns">
+      <div>
+        <h3>Top Artists</h3>
+        <ul id="topArtists"></ul>
+      </div>
+      <div>
+        <h3>Top Tracks</h3>
+        <ul id="topTracks"></ul>
+      </div>
+      <div>
+        <h3>Top Albums</h3>
+        <ul id="topAlbums"></ul>
+      </div>
+    </div>
+
+    <canvas id="cardCanvas" width="800" height="450"></canvas>
+  </div>
+</main>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
