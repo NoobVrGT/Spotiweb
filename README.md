@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Logo](assets/logo.svg) <!-- TODO: Add project logo and path if available, otherwise remove. -->
+![Logo](logo.svg) <!-- TODO: Add project logo and path if available, otherwise remove. -->
 
 [![GitHub stars](https://img.shields.io/github/stars/NoobVrGT/Spotiweb?style=for-the-badge)](https://github.com/NoobVrGT/Spotiweb/stargazers)
 
@@ -34,13 +34,6 @@ Spotiweb is a lightweight, client-side web application designed to be a personal
 -   **Client-side Navigation:** Navigate effortlessly between different sections of the application (Home, Recent, Stats, Visualizer).
 -   **Customizable User Interface:** Enjoy a unique visual experience powered by custom CSS.
 
-## 🖥️ Screenshots
-
-![Screenshot 1](assets/screenshot-home.png) <!-- TODO: Add actual screenshots of the application -->
-_Homepage showing basic player functionality._
-
-![Screenshot 2](assets/screenshot-stats.png) <!-- TODO: Add screenshots for other pages like Stats or Visualizer -->
-_Statistics page displaying top artists._
 
 ## 🛠️ Tech Stack
 
