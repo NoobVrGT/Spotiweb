@@ -34,6 +34,12 @@ Spotiweb is a lightweight, client-side web application designed to be a personal
 -   **Client-side Navigation:** Navigate effortlessly between different sections of the application (Home, Recent, Stats, Visualizer).
 -   **Customizable User Interface:** Enjoy a unique visual experience powered by custom CSS.
 
+## 🖥️ Screenshots
+
+![Screenshot 1](screenshot-home.png) <!-- TODO: Add actual screenshots of the application -->
+_Homepage showing basic player functionality._
+
+!
 
 ## 🛠️ Tech Stack
 
