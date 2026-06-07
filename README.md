@@ -1,106 +1,94 @@
-🎵 Spotiweb
-A clean, fast, browser‑based Spotify dashboard that displays your currently playing track, album art, and listening stats — all powered by the Spotify Web API.
+# Spotiweb
 
-Spotiweb is designed to be lightweight, responsive, and easy to deploy on services like Netlify, Vercel, or GitHub Pages.
+A clean, fast, browser-based Spotify dashboard that displays your currently playing track, album art, and listening stats using the Spotify Web API.
 
-🚀 Features
-🎧 Shows your currently playing Spotify track
+Spotiweb is lightweight, responsive, and easy to deploy on Netlify, Vercel, or GitHub Pages.
 
-🖼️ Displays album art, track name, artist, and progress
+## Features
+- Shows your currently playing Spotify track
+- Displays album art, track name, artist, and progress
+- Auto-refreshes in real time
+- 100% client-side (no backend required)
+- Fully responsive layout
+- Uses Spotify OAuth securely
+- Fast, minimal, and easy to customize
 
-🔄 Auto‑refreshes in real time
+## Tech Stack
+- HTML, CSS, JavaScript
+- Spotify Web API
+- OAuth 2.0 (Implicit Grant or PKCE)
+- Optional deployment: Netlify, Vercel, GitHub Pages
 
-🌐 100% client‑side — no backend required
+## Installation and Setup
 
-📱 Fully responsive layout
-
-🔒 Uses Spotify OAuth securely
-
-⚡ Fast, minimal, and easy to customize
-
-🛠️ Tech Stack
-HTML / CSS / JavaScript
-
-Spotify Web API
-
-OAuth 2.0 (Implicit Grant / PKCE)
-
-Netlify / Vercel (optional deployment)
-
-📦 Installation & Setup
-1. Clone the repository
-bash
+### 1. Clone the repository
 git clone https://github.com/NoobVrGT/Spotiweb
 cd Spotiweb
-2. Create a Spotify Developer App
+
+### 2. Create a Spotify Developer App
 Go to: https://developer.spotify.com/dashboard
 
 Create a new app and add this redirect URI:
-
-Code
 http://localhost:5500/
-(or whatever domain you deploy to)
 
-3. Add your Spotify Client ID
+(Or whatever domain you deploy to)
+
+### 3. Add your Spotify Client ID
 Open script.js and insert your Client ID:
 
-js
 const clientId = "YOUR_SPOTIFY_CLIENT_ID";
-4. Run locally
-Use any local web server (VS Code Live Server works great):
 
-Code
-Open index.html with Live Server
-📁 Project Structure
-Code
+### 4. Run locally
+Use any local web server (VS Code Live Server recommended).
+
+Open index.html with Live Server.
+
+## Project Structure
 Spotiweb/
 ├── index.html
 ├── style.css
 ├── script.js
 └── assets/
     └── icons/
-🌍 Deployment
-✔️ Deploy to Netlify (recommended)
-Go to https://netlify.com
 
-Click New Site → Import from GitHub
+## Deployment
 
-Select your Spotiweb repo
-
-Deploy
-
-Add your Netlify URL to Spotify Redirect URIs
+### Deploy to Netlify
+1. Go to https://netlify.com
+2. Click "New Site" → "Import from GitHub"
+3. Select your Spotiweb repo
+4. Deploy
+5. Add your Netlify URL to Spotify Redirect URIs
 
 Example:
-
-Code
 https://myspotiweb.netlify.app/
-✔️ Deploy to Vercel
-Go to https://vercel.com
 
-Import your GitHub repo
+### Deploy to Vercel
+1. Go to https://vercel.com
+2. Import your GitHub repo
+3. Deploy
+4. Add your Vercel URL to Spotify Redirect URIs
 
-Deploy
+### Deploy to GitHub Pages
+1. Push your repo
+2. Go to Settings → Pages
+3. Set branch to "main"
+4. Save
+5. Add your GitHub Pages URL to Spotify Redirect URIs
 
-Add your Vercel URL to Spotify Redirect URIs
-
-✔️ Deploy to GitHub Pages
-Push your repo
-
-Go to Settings → Pages
-
-Set branch to main
-
-Save
-
-Add your GitHub Pages URL to Spotify Redirect URIs
-
-📸 Screenshots (placeholders)
+## Screenshots
 Add your own screenshots here:
 
-Code
 ![Dashboard Screenshot](assets/screenshot1.png)
 ![Mobile View](assets/screenshot2.png)
+
+## Credits
+Created by NoobVrGT  
+Powered by the Spotify Web API
+
+## License
+MIT License
+
 🙌 Credits
 Created by NoobVrGT  
 Powered by the Spotify Web API
