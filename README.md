@@ -91,7 +91,7 @@ cd Spotiweb
 Create one here:
 https://www.last.fm/api/account/create
 
-3. Configure the app
+### 3. Configure the app
 Edit script.js:
 
 js
