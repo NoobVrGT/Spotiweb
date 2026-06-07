@@ -36,7 +36,7 @@ Spotiweb is a lightweight, client-side web application designed to be a personal
 
 ## 🖥️ Screenshots
 
-![Screenshot 1](screenshot-home.png) <!-- TODO: Add actual screenshots of the application -->
+![Screenshot 1](Screenshot-Home.png) <!-- TODO: Add actual screenshots of the application -->
 _Homepage showing basic player functionality._
 
 !
